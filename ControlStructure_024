@@ -12,3 +12,11 @@ else:
 
 for steps in range (1,4):
     print("Step", steps)
+
+n = int(input("Masukkan nilai n: "))
+
+a, b = 0, 1
+while a <= n:
+    print(a, end=" ")
+    a, b = b, a + b
+print()

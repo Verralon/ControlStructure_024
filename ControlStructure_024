@@ -1,0 +1,11 @@
+Nilai = float(input("Masukkan nilai siswa: "))
+if Nilai >= 90:
+    print("Excelent Performance")
+elif Nilai >= 80:
+    print("Very Good Performance")
+elif Nilai >= 70:
+    print("Good Performance")
+elif Nilai >= 60:
+    print("Average Performance")
+else:
+    print("Poor Performance")
